@@ -1,0 +1,124 @@
+<!--
+    博客主题源自以下两者：
+        theOne: http://www.pizn.net/14-11-2012/theone-blog-theme/
+        henter.diandian  http://henter.diandian.com
+
+    由henter将其结合修改，演示 http://henter.me
+    fork请保留这段信息。
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Jekyll" />
+    <meta name="author" content="{{ site.author.name }}" />
+    <meta name="keywords" content="{% if page.tags %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endif %} {{ site.keywords }}" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <link rel="stylesheet" href="{{ site.url }}/css/henter-diandian.css" type="text/css" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.url }}/{{ site.feed }}" />
+    <link rel="shortcut icon" href="{{ site.url }}/{{ site.favicon }}" type="image/x-icon" />
+
+    <script type="text/javascript" src="{{ site.url }}/js/jquery.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/js/top.js"></script>
+</head>
+<body>
+
+
+<div id="container" class="clear">
+
+    <div class="left viewport" id="left-cont">
+        <div class="overview" style="left:0;top:0;">
+            
+            <div class="logo">
+                <a href="{{ site.url }}/">
+                    <span class="logo-mark">
+                        <img src="{{ site.url }}/images/avatar.jpg" />
+                    </span>
+                </a>
+            </div>
+            
+            <div class="blog-name"><a href="{{ site.url }}/">{{ site.blogName }}</a></div>
+            <p class="blog-desc">
+                {{ site.blogDesc }}
+
+                <br /><br />
+                E-mail: <a href="mailto: {{ site.author.email }}" target="_blank">{{ site.author.email }}</a> <br />
+                Weibo: <a href="{{ site.follow.weibo }}" target="_blank">@周攀Henter</a>
+            </p>
+            <ul class="nav">
+                <li><a href="{{ site.url }}/about.html">About</a></li>
+                <li><a href="{{ site.url }}/tags.html">Tags</a></li>
+                <li><a href="{{ site.url }}/archive.html">Archive</a></li>
+                <li><a href="{{ site.url }}/{{ site.feed }}">RSS</a></li>
+            </ul>
+            <div class="music">
+            <!--
+                <object type="application/x-shockwave-flash" data="{{ site.url }}/images/music.swf" width="150" height="24" id="fancyplayer" name="fancyplayer">
+                    <param name="wmode" value="transparent"></param>
+                    <param name="movie" value="{{ site.url }}/images/music.swf"></param>
+                    <param name="flashvars" value="mp3={{ site.music }}&amp;"></param>
+                </object>
+              -->
+              </div>
+            
+            <div id="footer">
+                &copy; Henter <br />
+                2008 - 2013
+            </div>
+
+            <span class="arrow"></span>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="content">
+            {{ content }}
+            <div class="hr2"></div>
+        </div>
+    </div>
+    
+    <a class="fork-me" href="https://github.com/henter/henter.github.com" target="_blank" rel="nofollow">
+        <img src="{{ site.url }}/images/forkme.png" alt="Fork me on GitHub">
+    </a>
+
+</div>
+
+<script type="text/javascript">
+
+  function addBlankTargetForLinks () {
+    $('a[href^="http"]').each(function(){
+          $(this).attr('target', '_blank');
+      });
+  }
+
+  $(document).bind('DOMNodeInserted', function(event) {
+    addBlankTargetForLinks();
+  });
+
+$(document).ready(function() {
+    /**
+     * disqus
+     */
+    var disqusId = $("#disqus_thread");
+    if(disqusId && typeof disqusId != "undefined" && disqusId.length != 0) {
+        var disqusName = "{{ site.disqus }}";
+        var disqus_shortname = disqusName != "" ? disqusName : "henter";
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] ||
+                document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    }
+});
+</script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F63bcd6253465d79c553673d7f2d28b3d' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
