@@ -6,36 +6,36 @@ paginate:         4
 #permalink: /:year/:month/:day/:title
 permalink:        /post/:title.html
 
-title:            Henter
+title:            Hugo's Blog
 url:
-prod_url:         http://henter.me
+prod_url:         http://hugowen.com
 feed:             atom.xml
 author:
-    name:         Henter
-    email:        henter@henter.me
+    name:         Hugo
+    email:        hugowen20@gmail.com
 
 follow:
-    email:        henter@henter.me
-    github:       https://github.com/henter
-    twitter:      https://www.twitter.com/henterchow
+    email:        hugowen20@gmail.com
+    github:       https://github.com/HugoWen
+    twitter:      https://www.twitter.com/hugo_wen
     google:       https://plus.google.com/107483619032085919305
-    facebook:     https://facebook.com/henterchow
-    weibo:     	  http://weibo.com/henter
+    facebook:     https://facebook.com/hugo_wen
+    weibo:     	  http://weibo.com/whfallen
 
 
 indexContent:     true
 
 
-keywords:         "henter, henter个人博客"
-description:      "Henter's personal site, focus on the web."
+keywords:         "hugo, hugo个人博客"
+description:      "热爱开源，崇尚自由"
 
-blogName:         Henter
+blogName:         Hugo's Blog
 blogDesc:         <br />Shanghai, China
 favicon:          favicon.ico
 theme:            henter-diandian
 
-disqus:           henter
+disqus:           hugo
 
-copyright:        Copyright © 2008-2013 Henter All rights reserved.
+copyright:        Copyright © 2008-2013 Hugo All rights reserved.
 
 music:            http://a.libdd.com/farm1/19/53EAEE74712880DBF40B0A7915561C13.mp3
