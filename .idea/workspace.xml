@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e923df3e-8db0-4630-8728-78ac933e2b84" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-02-05-git-rebase.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-02-06-try-farbox.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-03-21-Cubieboard-test.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-03-22-back-to-github-jekyll.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-03-22-local-webapp-to-the-web-with-dotcloud.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-03-29-PHP-fatal-error-maximum-function-nesting-level-of-100-reached.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-03-30-ruby-rvm-gem-rake-bundle-rails.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-07-git-submodule_oh-my-zsh.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-17-install-grahpviz-for-dot-command.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-17-php-warning-unable-to-allocate-memory-for-pool.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-18-mac-proxy-setting-command.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-19-alfred2-workflow-shanbay.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-21-alfred2-workflow-shanbay-notify.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-24-python-notes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-04-25-cleanup-mac.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-05-01-snapweibo.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-05-06-mongodb-geospatial-query-symfony2-demo.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-06-07-alfred2-workflow-push.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-07-18-python-apn.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-09-20-sed-notes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-09-21-ssh-agent-for-github-in-vagrant.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-10-11-nginx-error-upstream-sent-too-big-header-while-reading-response-header-from-upstream.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-10-18-python-rabbitmq-multiple-thread-apn.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-12-12-cant-input-chinese-in-phpstrom-on-mac.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2014-01-31-node-rabbitmq-apn.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2014-07-30-mysql-replication-1236-error.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2014-09-15-symfony-chromephp-header-bug.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2014-09-16-upgrade-redis-to-2.8.15-on-ubuntu.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2014-09-23-slack-hubot-ubuntu-android-auto-build.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/alfred-push-notify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/alfred-push.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/applescript-notify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/chromephp-headers-print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/chromephp-headers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/geo-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/geo-center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/geo-circle-square-map.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/geo-distance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/geo-near.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/geo-polygon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/mac-proxy-setting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/mac-switch-location.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/shanbay-alfred-demo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/shanbay-alfred-notify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pic/snapweibo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/henter-diandian.html" afterPath="$PROJECT_DIR$/_layouts/henter-diandian.html" />
     </list>
     <ignored path="HugoWen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +28,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="264" selection-end="264" vertical-scroll-proportion="0.21164773" vertical-offset="1" max-vertical-offset="705">
+            <state line="38" column="30" selection-start="959" selection-end="959" vertical-scroll-proportion="0.80965906" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -406,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="264" selection-end="264" vertical-scroll-proportion="0.21164773" vertical-offset="1" max-vertical-offset="705">
+        <state line="38" column="30" selection-start="959" selection-end="959" vertical-scroll-proportion="0.80965906" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
