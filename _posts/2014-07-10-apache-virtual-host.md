@@ -1,7 +1,9 @@
+---
+layout: post
 title: Apache配置虚拟主机
+description: Apache配置虚拟主机
 date: 2014-07-10 07:45:33
-tags: [Apache,虚拟主机,php]
-categories: php
+tags: Apache 虚拟主机 php
 ---
 在Apache环境下配置虚拟主机，即在本机浏览器中输入地址即可直接访问本机目录文件。
 
