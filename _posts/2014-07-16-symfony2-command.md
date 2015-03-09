@@ -1,7 +1,11 @@
+---
+layout: post
 title: Symfony2基本操作命令记录
+description: Symfony2基本操作命令记录
 date: 2014-07-16 16:16:32
-tags: [Symfony2,配置,命令,doctrine]
-categories: Symfony2
+tags: [php,symfony2,doctrine,composer]
+categories: [Symfony2]
+published: true
 ---
 记录Symfony2的基本操作配置命令。
 

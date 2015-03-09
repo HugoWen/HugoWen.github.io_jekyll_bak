@@ -1,7 +1,11 @@
+---
+layout: post
 title: hexo使用markdown插入本地图片
+description: hexo使用markdown插入本地图片
 date: 2014-05-17 11:24:56
 tags: [hexo,markdown,图片,本地]
 categories: [hexo]
+published: true
 ---
 由于没有寻觅到比较靠谱的图床，所以准备通过上传图片到GitHub上我的hexo项目里，再使用本地路径来调用的方法感觉应该可以。稍微麻烦的是本地图片路径的写法问题。
 

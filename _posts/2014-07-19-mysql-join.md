@@ -1,7 +1,11 @@
+---
+layout: post
 title: mysql Join关键字的用法
+description: mysql Join关键字的用法
 date: 2014-07-19 11:14:45
 tags: [mysql, join, left join, inner join]
-categories: mysql
+categories: [mysql]
+published: true
 ---
 ##LEFT JOIN
 LEFT JOIN关键字从左表中返回所有的行，即使在右表中没有匹配的行。

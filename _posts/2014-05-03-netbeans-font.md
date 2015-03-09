@@ -1,7 +1,11 @@
+---
+layout: post
 title: Netbeans8.0设置Consola字体并解决中文乱码问题
+description: Netbeans8.0设置Consola字体并解决中文乱码问题
 date: 2014-05-03 20:17:44
 tags: [Netbeans,Consola,中文乱码,字体]
-categories: php
+categories: [工具]
+published: true
 ---
 在Netbeans8.0上开发php，设置字体为Consola后，发现中文显示是乱码的，经过修改jre的配置文件成功解决了这个问题。
 

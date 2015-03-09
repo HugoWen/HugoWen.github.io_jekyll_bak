@@ -1,7 +1,11 @@
+---
+layout: post
 title: CentOS服务器搭建LNMP环境
+description: CentOS服务器搭建LNMP环境
 date: 2014-07-09 22:03:47
 tags: [linux,服务器,php,nginx,lnmp,centos]
-categories: 服务器
+categories: [服务器,linux]
+published: true
 ---
 记录CentOS服务器搭建LNMP(linux+nginx+mysql+php)的步骤。
 

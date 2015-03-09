@@ -1,7 +1,11 @@
+---
+layout: post
 title: Github创建分支与提交代码
+description: Github创建分支与提交代码
 date: 2014-07-16 12:20:57
 tags: [github,分支,git]
-categories: Git
+categories: [git,GitHub]
+published: true
 ---
 #创建项目分支
 在已经存在的项目中建立分支，从而为项目贡献自己的代码或者作为一个新的项目的开始。记录下创建分支的简单步骤以及基本的提交代码到Github的命令。

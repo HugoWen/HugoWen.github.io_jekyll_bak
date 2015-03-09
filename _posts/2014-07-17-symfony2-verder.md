@@ -1,7 +1,11 @@
+---
+layout: post
 title: Symfony2添加并更新vender库
+description: Symfony2添加并更新vender库
 date: 2014-07-17 12:44:12
 tags: [Symfony2, vender, php]
-categories: Symfony2
+categories: [Symfony2]
+published: true
 ---
 在Symfony2中有一种简单的方法添加和更新vender库。
 

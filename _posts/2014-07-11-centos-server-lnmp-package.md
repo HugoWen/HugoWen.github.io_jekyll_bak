@@ -6,6 +6,7 @@ date: 2014-07-11 15:09:21
 published: true
 tags: [服务器, CentOS, LNMP, nginx]
 categories: [服务器, linux]
+published: true
 ---
 之前做过手动配置LNMP环境，感觉十分复杂麻烦，在这里使用LNMP安装包来进行环境搭建。
 

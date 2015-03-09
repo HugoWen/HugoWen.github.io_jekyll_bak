@@ -1,7 +1,11 @@
+---
+layout: post
 title: Windows下Redis的安装和在php下的扩展使用
+description: Windows下Redis的安装和在php下的扩展使用
 date: 2014-07-10 07:49:29
 tags: [redis,php]
-categories: php
+categories: [php,redis]
+published: true
 ---
 ##Windows下Redis的安装和开启服务
 下载并安装Redis对应的Windows版本，下载地址：[https://github.com/mythz/redis-windows](https://github.com/mythz/redis-windows)

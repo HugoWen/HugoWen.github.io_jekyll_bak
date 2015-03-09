@@ -1,7 +1,11 @@
+---
+layout: post
 title: Symfony2配置Bundle路由信息
+description: Symfony2配置Bundle路由信息
 date: 2014-07-17 17:48:28
 tags: [Symfony2, bundle, 路由]
-categories: Symfony2
+categories: [Symfony2]
+published: true
 ---
 Symfony2有一套很规范的路由配置方式。在创建新的**Bundle**的时候，通过从Symfony主配置文件一步步地引用来实现路由到当前Bundle的路径信息。
 

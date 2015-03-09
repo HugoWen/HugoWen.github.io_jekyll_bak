@@ -1,7 +1,11 @@
-title: Ubuntu配置qt4+opencv环境  
+---
+layout: post
+title: Ubuntu配置qt4+opencv环境
+description: Ubuntu配置qt4+opencv环境
 date: 2014-05-01 16:00:04
-tags: [qt4,opencv,ubuntu]
-categories: qt
+tags: [qt4,opencv,ubuntu,linux]
+categories: [qt4,linux,opencv]
+published:true
 ---
 ## **配置系统环境**
 
