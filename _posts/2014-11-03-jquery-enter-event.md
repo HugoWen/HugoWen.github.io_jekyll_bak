@@ -2,7 +2,7 @@
 layout: post
 title: jQuery 回车事件处理
 description: 全局监测键盘回车事件，触发事件处理函数。
-date: site.time
+date: {{site.time}}
 published: true
 tags: jQuery 键盘事件 回车
 categories: [jQuery]
