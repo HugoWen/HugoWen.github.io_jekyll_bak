@@ -62,3 +62,5 @@ public function jquery_sort($start, $end, $data = []){
     return $data;
 }
 ```
+
+排序传值的时候一定要注意，因为ajax传过去的排序值是顺序值，而数组的键名可能是乱序的数组，所以为了避免排序出错，使用**array_values**去除原有键名，然后再进行排序。
