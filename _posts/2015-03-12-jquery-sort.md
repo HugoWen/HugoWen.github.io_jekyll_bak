@@ -17,7 +17,6 @@ published: true
     $('.data_big').sortable().bind('sortupdate', function(e, ui) {
         var start = ui.oldindex;
         var end = ui.item.index();
-
         $.post(
             "{{ path('admin_ajax_plaza') }}", {
                 big_start: ui.oldindex,
