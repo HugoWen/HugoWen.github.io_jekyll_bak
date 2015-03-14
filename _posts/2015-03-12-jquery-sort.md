@@ -13,25 +13,25 @@ published: true
 *js代码*
 
 ```
-    <script>
-        $('.data_big').sortable().bind('sortupdate', function(e, ui) {
-            var start = ui.oldindex;
-            var end = ui.item.index();
+<script>
+    $('.data_big').sortable().bind('sortupdate', function(e, ui) {
+        var start = ui.oldindex;
+        var end = ui.item.index();
 
-            $.post(
-                "{{ path('admin_ajax_plaza') }}", {
-                    big_start: ui.oldindex,
-                   big_end: ui.item.index()
-                },function(ret) {
-                    if(ret.error > 0){
-                        alert(ret.msg);
-                    }else{
-                        alert("拖动排序调整成功！")
-                    });
-                }
-            });
+        $.post(
+            "{{ path('admin_ajax_plaza') }}", {
+                big_start: ui.oldindex,
+               big_end: ui.item.index()
+            },function(ret) {
+                if(ret.error > 0){
+                    alert(ret.msg);
+                }else{
+                    alert("拖动排序调整成功！")
+                });
+            }
         });
-    </script>
+    });
+</script>
 ```
 
 将拖动排序的首末两个位置通过ajax传值到php后端，然后在后端进行数据排序处理并进行保存等操作。
