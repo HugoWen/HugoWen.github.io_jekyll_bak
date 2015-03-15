@@ -1,10 +1,7 @@
 
 #网站设置 详细https://github.com/mojombo/jekyll/wiki/configuration
-markdown:         kramdown
-highlighter:      rouge
-lsi:              false
-excerpt_separator: "\n\n"
-
+markdown:         rdiscount
+highlighter:      pygments
 paginate:         4
 #permalink: /:year/:month/:day/:title
 permalink:        /post/:title.html

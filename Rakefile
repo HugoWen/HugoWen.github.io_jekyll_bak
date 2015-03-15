@@ -26,17 +26,23 @@ task :new_post, :title do |t, args|
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   puts "Creating new post: #{filename}"
-  puts "gvim #{filename}"
+  puts "vim #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: #{title.gsub(/&/,'&amp;')}"
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S')}"
-    post.puts "post-link:"
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    #post.puts "post-link:"
     post.puts "---"
     post.puts ""
     post.puts "bq. BLOCKQUOTE"
     post.puts ""
+  end
+
+  if File.exist?('/Applications/Mou.app')
+    sh "open -a Mou #{filename}"
+  else
+    sh "vim #{filename}"
   end
 end
 
@@ -54,5 +60,3 @@ task :preview do
 
   [jekyllPid].each { |pid| Process.wait(pid) }
 end
-
-
