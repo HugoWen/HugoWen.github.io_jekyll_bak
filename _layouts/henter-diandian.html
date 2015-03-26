@@ -16,13 +16,13 @@
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="keywords" content="{% if page.tags %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endif %} {{ site.keywords }}" />
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <link rel="stylesheet" href="{{ site.url }}/css/henter-diandian.css" type="text/css" />
+    <link rel="stylesheet" href="/css/henter-diandian.css" type="text/css" />
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.url }}/{{ site.feed }}" />
-    <link rel="shortcut icon" href="{{ site.url }}/{{ site.favicon }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="/{{ site.favicon }}" type="image/x-icon" />
 
-    <script type="text/javascript" src="{{ site.url }}/js/jquery.js"></script>
-    <script type="text/javascript" src="{{ site.url }}/js/top.js"></script>
-    <script type="text/javascript" src="{{ site.url }}/js/high.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/top.js"></script>
+    <script type="text/javascript" src="/js/high.js"></script>
 </head>
 <body>
 
@@ -33,14 +33,14 @@
         <div class="overview" style="left:0;top:0;">
             
             <div class="logo">
-                <a href="{{ site.url }}/">
+                <a href="/">
                     <span class="logo-mark">
-                        <img src="{{ site.url }}/images/avatar.jpg" />
+                        <img src="/images/avatar_zhaoshi.jpg" />
                     </span>
                 </a>
             </div>
             
-            <div class="blog-name"><a href="{{ site.url }}/">{{ site.blogName }}</a></div>
+            <div class="blog-name"><a href="/">{{ site.blogName }}</a></div>
             <p class="blog-desc">
                 {{ site.blogDesc }}
 
@@ -49,22 +49,13 @@
                 Weibo: <a href="{{ site.follow.weibo }}" target="_blank">@玄文处幽</a>
             </p>
             <ul class="nav">
-                <li><a href="{{ site.url }}/about.html">About</a></li>
-                <li><a href="{{ site.url }}/tags.html">Tags</a></li>
-                <li><a href="{{ site.url }}/categories.html">Categories</a></li>
-                <li><a href="{{ site.url }}/archive.html">Archive</a></li>
-                <li><a href="{{ site.url }}/{{ site.feed }}">RSS</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/archive.html">Archive</a></li>
+                <li><a href="/{{ site.feed }}">RSS</a></li>
                 <li><a href="javascript:high()">High一下</a></li>
             </ul>
-            <div class="music">
-            <!--
-                <object type="application/x-shockwave-flash" data="{{ site.url }}/images/music.swf" width="150" height="24" id="fancyplayer" name="fancyplayer">
-                    <param name="wmode" value="transparent"></param>
-                    <param name="movie" value="{{ site.url }}/images/music.swf"></param>
-                    <param name="flashvars" value="mp3={{ site.music }}&amp;"></param>
-                </object>
-              -->
-              </div>
             
             <div id="footer">
                 &copy; Hugo <br />
@@ -83,7 +74,7 @@
     </div>
     
     <a class="fork-me" href="https://github.com/HugoWen/HugoWen.github.io" target="_blank" rel="nofollow">
-        <img src="{{ site.url }}/images/forkme.png" alt="Fork me on GitHub">
+        <img src="/images/forkme.png" alt="Fork me on GitHub">
     </a>
 
 </div>
