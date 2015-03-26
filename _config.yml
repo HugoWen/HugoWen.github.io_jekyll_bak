@@ -7,7 +7,7 @@ paginate:         4
 permalink:        /post/:title.html
 
 title:            Hugo's Blog
-url:
+url:              http://hugowen.com
 prod_url:         http://hugowen.com
 feed:             atom.xml
 author:
