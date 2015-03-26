@@ -10,13 +10,13 @@ layout: henter-diandian
     
     <div class="tags">Tags: 
         {% for tag in page.tags %}
-        <a href="{{ site.url }}/tags.html#{{ tag }}-ref"><span>{{ tag }}</span></a> 
+        <a href="/tags.html#{{ tag }}-ref"><span>{{ tag }}</span></a>
         {% endfor %}
     </div>
 
     <div class="categories">Categories:
         {% for category in page.categories %}
-        <a href="{{ site.url }}/categories.html#{{ category }}"><span>{{ category }}</span></a>
+        <a href="/categories.html#{{ category }}"><span>{{ category }}</span></a>
         {% endfor %}
     </div>
 
