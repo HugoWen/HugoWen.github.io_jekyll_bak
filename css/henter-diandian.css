@@ -87,7 +87,7 @@ body {min-height:100%; height:auto !important; min-width: 450px;background:url(i
 .menu a,.nav li a,.column-1 .menu a {color:#ffffff}
 
 .content {color:#999999}
-.info,.info a,.tags,.tags a{color:#353638 !important}
+.info,.info a,.tags,.tags a, .categories, .categories a{color:#353638 !important}
 a,.blog-desc a,.nav li a:hover {color:#4691c1}
 .blog-desc a:hover {border-bottom:1px dotted #4691c1}
 

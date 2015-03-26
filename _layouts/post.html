@@ -14,6 +14,12 @@ layout: henter-diandian
         {% endfor %}
     </div>
 
+    <div class="categories">Categories:
+        {% for category in page.categories %}
+        <a href="{{ site.url }}/categories.html#{{ category }}"><span>{{ category }}</span></a>
+        {% endfor %}
+    </div>
+
     <nav class="pagination-link">
         {% if page.previous %}
         <a class="prev" href="{{ site.url }}{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
