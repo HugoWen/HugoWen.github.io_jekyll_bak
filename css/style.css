@@ -352,6 +352,8 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 
 .icon-user-md:before              { content: "\f200"; }
 
+.icon-weibo:before                { content: "\f18a"; }
+
 /*************************
  * layout
  *************************/
