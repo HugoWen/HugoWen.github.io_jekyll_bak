@@ -10,7 +10,8 @@ published: true
 1.常量值是否存在
 
 检测常量值是否存在使用defined()函数，不存在则返回false。
-``` php
+
+```php
 <?php 
 /* 判断常量是否存在*/ 
 if (defined('MYCONSTANT')) { 
@@ -21,7 +22,8 @@ if (defined('MYCONSTANT')) {
 2.变量值是否存在
 
 检测变量值是否存在使用isset()函数，不存在或存在为null，皆返回false。
-``` php
+
+```php
 <?php 
 /* 判断变量是否存在*/ 
 if ((isset($var_name)) { 
@@ -32,7 +34,8 @@ if ((isset($var_name)) {
 3.函数是否存在
 
 检测函数是否存在使用function_exists()函数，不存在则返回false。
-``` php
+
+```php
 <?php
 /* 判断函数是否存在*/ 
 if (function_exists('fun_name')) {

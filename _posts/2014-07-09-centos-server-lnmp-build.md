@@ -13,25 +13,27 @@ published: true
 
 开启80端口、3306端口
 
-```
+```Bash
 vim /etc/sysconfig/iptables
 ```
 
 在默认的22端口规则下添加：
+
 ```
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT #允许80端口通过防火墙
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT #允许3306端口通过防火墙
 ```
 
 重启防火墙
-```
+
+```Bash
 /etc/init.d/iptables restart
 ```
-<!--more-->
 
 ##2.关闭SELINUX
-```
-vi /etc/selinux/config
+
+```Bash
+vim /etc/selinux/config
 ```
 
 ```
@@ -41,12 +43,14 @@ SELINUX=disabled #增加
 ```
 
 重启系统
-```
+
+```Bash
 shutdown -r now
 ```
 
 ##3.安装第三方yum源
-```
+
+```Bash
 yum install wget
 wget http://www.atomicorp.com/installers/atomic
 sh ./atomic
@@ -54,83 +58,96 @@ yum check-update
 ```
 
 ##4.安装nginx
-```
+
+```Bash
 yum install nginx
 ```
 
 设置开机启动
-```
+
+```Bash
 chkconfig nginx on
 ```
 
 启动nginx
-```
+
+```Bash
 service nginx start
 ```
 
 ##5.安装mysql
-```
+
+```Bash
 yum install mysql mysql-server
 ```
 
 启动mysql
-```
+
+```Bash
 /etc/init.d/mysqld start
 ```
 
 设置开机启动
-```
+
+```Bash
 chkconfig mysqld on
 ```
 
 为root账户设置密码
-```
+
+```Bash
 mysql_secure_installation
 ```
 
 设置完成后，重启mysql
-```
+
+```Bash
 /etc/init.d/mysqld restart
 ```
 
 ##6.安装php5
-```
+
+```Bash
 yum install php php-fpm
 ```
 
 安装php组件，使php5支持mysql
-```
+
+```Bash
 yum install php-mysql php-gd libjpeg* php-imap php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring php-mcrypt php-bcmath php-mhash libmcrypt
 ```
 
 设置php-fpm开机启动
-```
+
+```Bash
 chkconfig php-fpm on
 ```
 
 启动php-fpm
-```
+
+```Bash
 /etc/init.d/php-fpm start
 ```
 
 ##7.配置nginx支持php
 编辑nginx.conf
-```
+
+```Bash
 vim /etc/nginx/nginx.conf
 ```
 
-```
+```Bash
 user nginx nginx	#修改nginx账户为：nginx组的nginx用户
 ```
 
 编辑default.conf
-```
+
+```Bash
 vim /etc/nginx/conf.d/default.conf
 ```
 
 ```
 index index.php index.html index.htm;
-
 # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
 #
 location ~ \.php$ {
@@ -144,12 +161,14 @@ include fastcgi_params;
 ```
 
 重启nginx
-```
+
+```Bash
 service nginx restart
 ```
 
 ##8.php配置
-```
+
+```Bash
 vim /etc/php.ini
 ```
 
@@ -162,7 +181,8 @@ open_basedir = .:/tmp/    #设置表示允许访问当前目录(即PHP脚本文�
 ```
 
 ##9.php-fpm配置
-```
+
+```Bash
 vim /etc/php-fpm.d/www.conf
 ```
 

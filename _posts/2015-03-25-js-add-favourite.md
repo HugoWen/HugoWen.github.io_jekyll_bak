@@ -7,7 +7,7 @@ categories: [javascript]
 published: true
 ---
 
-```html
+```javascript
 <div onclick="AddFavorite()">收藏本站</div>
 <script type="text/javascript">
     function AddFavorite(){

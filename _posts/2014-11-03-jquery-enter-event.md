@@ -10,7 +10,7 @@ published: true
 
 jQuery处理键盘回车之后的触发事件。
 
-```
+```javascript
 $(function(){
     document.onkeydown = function(e){
         var ev = document.all ? window.event : e;

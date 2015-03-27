@@ -12,7 +12,7 @@ published: true
 ###1. 修改*composer.json*文件
 添加代码到*composer.json*文件的*require*区块中，以在更新vender库时成功识别要添加的Bundle，这里以添加*DoctrineFixturesBundle*为例。
 
-```
+```json
 // composer.json
 // ...
     "require": {
@@ -25,7 +25,8 @@ published: true
 ```
 
 ###2. 更新vender库
-```
+
+```bash
 composer update
 ```
 <!--more-->
@@ -33,7 +34,8 @@ composer update
 ###3. 在*app/AppKernel.php*中注册
 在*app/AppKernel.php*文件中注册新添加的Bundle，注册之后才能成功使用。
 
-```
+```php
+<?php
 // app/AppKernel.php
 // ...
 

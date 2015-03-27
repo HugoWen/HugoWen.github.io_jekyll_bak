@@ -15,30 +15,34 @@ published: true
 ![](../../../../img/1406171234.jpg)
 
 ##2. Clone分支到本地
-```
+
+```Bash
 git clone https://github.com/username/Spoon-Knife.git
 ```
 
 ##3. 配置本地库与原始库的关联
 由于克隆后的本地库的只有一个与自己的GitHub上的分支关联的名为origin的远程，所以要提交自己的更新到原始库，必须配置与原始库https://github.com/octocat/Spoon-Knife的关联，名为upstream
 
-执行以下命令：  
-```
+执行以下命令：
+
+```Bash
 cd Spoon-Knife
 git remote add upstream https://github.com/octocat/Spoon-Knife.git	#添加名为upstream的原始库关联
 git fetch upstream	#从原始库抓取更新
 ```
-<!-- more -->
+
 #提交代码
 *提交更新代码到项目*
-```
+
+```Bash
 git commit -a -m 'Update README'
 git push origin master
 git fetch upstream
 ```
 
 *添加一个新的文件到项目*
-```
+
+```Bash
 git add 文件名 
 git commit -a -m 'Add new doc'
 git push origin master

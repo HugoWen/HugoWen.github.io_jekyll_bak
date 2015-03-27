@@ -22,7 +22,7 @@ monospaced.bolditalic.alphabetic=Courier New Bold Italic
 ```
 
 *修改为：*
-<!--more-->
+
 ```
 sequence.monospaced.GBK=alphabetic,chinese-ms936,dingbats,symbol,chinese-ms936-extb
 monospaced.plain.alphabetic=Consolas

@@ -16,7 +16,7 @@ published: true
 ![第二步](http://ww1.sinaimg.cn/large/a15ae2e5gw1eg3ik6bu7aj20a2022t8v.jpg)
 
 ![第三步](http://ww1.sinaimg.cn/large/a15ae2e5gw1eg3iljxoa3j20dz01t0ss.jpg)
-<!--more-->
+
 ![第四步](http://ww3.sinaimg.cn/large/a15ae2e5gw1eg3imnryy5j205o02x0so.jpg)
 
 OK，成功转换。

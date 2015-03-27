@@ -10,13 +10,15 @@ published: true
 最近做的一个项目，需要去掉CentOS的登录界面直接进入系统，简单的配置即可解决。
 
 *修改文件：*  
-    
-`vim /etc/gdm/custom.conf`
+
+```Bash
+vim /etc/gdm/custom.conf
+```
 
 *加入内容：* 
 
-```
-[daemon]  
-AutomaticLogin=自动登陆的用户名  
+```Bash
+[daemon]
+AutomaticLogin=自动登陆的用户名
 AutomaticLoginEnable=True
 ```

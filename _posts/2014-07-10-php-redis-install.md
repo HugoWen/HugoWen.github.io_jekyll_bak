@@ -26,7 +26,6 @@ redis-cli.exe -h 192.168.1.105(自己的ip地址) -p 6379
 ##php下配置Redis扩展使用
 下载安装php_redis.dll和php_igbinary.dll文件。  
 下面是对应php5.5的下载链接，根据自己的环境进行选择下载：
-<!--more-->
 
 php_redis-5.5-vc11-ts-x86-00233a.zip [http://d-h.st/4A5](http://d-h.st/4A5)  
 php_igbinary-5.5-vc11-ts-x86-c35d48.zip [http://d-h.st/QGH](http://d-h.st/QGH)  
@@ -41,7 +40,8 @@ php_redis-5.5-vc11-nts-x64-00233a.zip [http://d-h.st/N0d](http://d-h.st/N0d)
 php_igbinary-5.5-vc11-nts-x64-c35d48.zip [http://d-h.st/c1a](http://d-h.st/c1a)
 
 将php_igbinary.dll和php_redis.dll放入php的ext目录下，然后修改php.ini，加入这两个扩展，顺序一定要按照如下：
-```
+
+```ApacheConf
 extension=php_igbinary.dll
 extension=php_redis.dll
 ```
@@ -49,7 +49,9 @@ extension=php_redis.dll
 重启Apache服务，查看*phpinfo()*，出现redis即配置成功。
 
 附php测试代码
-```
+
+```php
+<?php
 $redis = new Redis();  
 $redis->connect("192.168.138.2","6379");  //php客户端设置的ip及端口  
 //存储一个 值  

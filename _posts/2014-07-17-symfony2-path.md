@@ -8,6 +8,3 @@ categories: [Symfony2]
 published: true
 ---
 由于Symfony2文件结构比较复杂，对于初学者来说对文件位置的获取若是直接写出绝对路径或相对路径比较麻烦且容易出错，但方便的是，Symfony提供了一个*path()*函数，便可以直接获得当前文件的位置。
-```
-{{ path()}}
-```

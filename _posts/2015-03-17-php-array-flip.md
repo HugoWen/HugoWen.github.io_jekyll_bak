@@ -9,7 +9,8 @@ published: true
 
 php通过使用两次*array_flip()*函数进行去除数组中重复元素。
 
-```
+```php
+<?php
 //两次反转键值删除重复数组元素
 $def_array = array_flip(array_flip($source_array));
 ```
