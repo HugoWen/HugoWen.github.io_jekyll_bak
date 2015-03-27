@@ -19,7 +19,7 @@ Version: 20120227
   font-family: 'JennaSue';
   src: url( '../font/JennaSue.eot');                         /* IE9 Compat Modes */
   src: url( '../font/JennaSue.eot?iefix' ) format( 'eot' ),  /* IE6-IE8 */
-       url( '../font/JennaSue.ttf' ) format( 'truetype' );   /* sofari .. */
+       url( '../font/JennaSue.ttf' ) format( 'truetype' );   /* safari .. */
 }
 
 body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, group, menu, nav, section { margin: 0; padding: 0; }
@@ -165,7 +165,7 @@ article .post-content a:hover{color:red;border-bottom: 1px solid red;}
 .pagination-link a          { padding: 0 8px; line-height: 28px; }
 .pagination-link a:hover    { text-decoration: none; border-bottom: 1px solid #666; }
 .pagination-link .prev      { float: left; }
-.pagination-link .next      { float: right; }
+.pagination-link .next      { float: right; margin-right: 40px}
 
 /*************************
  * Post style
@@ -211,10 +211,11 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 .tagpage div a:link{ border-bottom: none;}
 .tagpage ul{margin-left: 3em;}
 
+
 /*************************
  * iPad
 *************************/
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/*@media only screen and (min-width: 768px) and (max-width: 1024px) {
     body {overflow-x:  hidden;}
     #head { width: 30%;}
     #begin { width: 90%; padding: 30px 5%; }
@@ -223,11 +224,11 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
         width: 500px;
         max-width: 500px;
     }
-}
+}*/
 /*************************
  * iPhone
 *************************/
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+/*@media only screen and (min-width: 320px) and (max-width: 767px) {
     body {overflow-x:  hidden;background: none;}
 
     .post { width: 90%; padding: 0 5%; margin: 30px 0; overflow: hidden; scroll-x: hidden;}
@@ -251,7 +252,7 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
     }
     .post table th, .post table td { border: 1px solid #ddd; padding: 2px 0px; }
 
-    /* iPhone定制*/
+    *//* iPhone定制*//*
     #footer, .music, .arrow, .fork-me{display: none;}
     #container{padding-left: 0;}
     .left{width:90%; clear:both; float:none;margin-left:-70px;}
@@ -263,4 +264,4 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
     .right{width:90%; clear:both; padding-top:500px;}
     .right p, .right div, .right h1, .right h2, .right h3{width: 90%;}
 
-}
+}*/
