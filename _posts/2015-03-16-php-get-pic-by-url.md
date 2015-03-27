@@ -9,7 +9,8 @@ published: true
 
 使用curl根据url获取图片文件并保存到本地。
 
-```
+```php
+<?php
 public function get_pic_by_url($url){
 	$curl = curl_init($url);
     $filename = date("Ymdhis").".jpg";

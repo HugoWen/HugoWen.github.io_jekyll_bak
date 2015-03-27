@@ -7,21 +7,20 @@ categories: [javascript]
 published: true
 ---
 
-
-```
-	<div onclick="AddFavorite()">收藏本站</div>
-	<script type="text/javascript">
-		function AddFavorite(){
-			alert("已点");
-	    	try{
-	        	window.external.addFavorite('kudong.im', 'sTitle');
-	    	}catch (e){
-	        	try{
-	            	window.sidebar.addPanel(sTitle, sURL, "");
-	        	}catch (e){
-	            	alert("加入收藏失败，请使用Ctrl+D进行添加");
-	        	}
-	    	}
-		}
-	</script>
+```html
+<div onclick="AddFavorite()">收藏本站</div>
+<script type="text/javascript">
+    function AddFavorite(){
+        alert("已点");
+        try{
+            window.external.addFavorite('kudong.im', 'sTitle');
+        }catch (e){
+            try{
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }catch (e){
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+</script>
 ```

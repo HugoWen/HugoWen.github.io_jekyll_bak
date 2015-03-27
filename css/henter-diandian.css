@@ -50,7 +50,7 @@ sub { bottom: -0.25em; }
 ins, a { text-decoration: none; }
 u{ text-decoration: underline; }
 mark { background: #FFFB99; }
-pre, code { font-family: "Courier New", Courier, monospace; overflow-x: auto; vertical-align: middle; }
+pre, code { font-family: Consolas, Monaco, monospace; overflow-x: auto; vertical-align: middle; }
 code { vertical-align:top;}
 small { font-size: 12px; color: #888; }
 hr { border: 3px solid #f4f3f3; clear: both; max-width: 300px; border-radius: 5px; margin: 35px 0 35px 90px; }
