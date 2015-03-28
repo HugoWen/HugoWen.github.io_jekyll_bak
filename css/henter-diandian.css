@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 /*************************
  * iPad
 *************************/
-/*@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     body {overflow-x:  hidden;}
     #head { width: 30%;}
     #begin { width: 90%; padding: 30px 5%; }
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
         width: 500px;
         max-width: 500px;
     }
-}*/
+}
 /*************************
  * iPhone
 *************************/
