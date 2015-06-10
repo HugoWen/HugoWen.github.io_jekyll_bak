@@ -79,6 +79,8 @@
         <img src="/images/forkme.png" alt="Fork me on GitHub">
     </a>
 
+    <div class="progress-indicator-2"></div>
+
 </div>
 
 <script type="text/javascript">
@@ -92,6 +94,25 @@
   $(document).bind('DOMNodeInserted', function(event) {
     addBlankTargetForLinks();
   });
+
+  (function() {
+      var $w = $(window);
+      var $prog2 = $('.progress-indicator-2');
+      var wh = $w.height();
+      var h = $('body').height();
+      var sHeight = h - wh;
+
+      $w.on('scroll', function() {
+          var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
+          updateProgress(perc);
+      });
+
+      function updateProgress(perc) {
+          $prog2.css({width: perc * 100 + '%'});
+          ditto.save_progress && store.set('page-progress', perc);
+      }
+
+  }());
 
 
   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->

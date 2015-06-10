@@ -211,6 +211,14 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 .tagpage div a:link{ border-bottom: none;}
 .tagpage ul{margin-left: 3em;}
 
+.progress-indicator-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background-color: #0A74DA;
+}
+
 
 /*************************
  * iPad
