@@ -79,6 +79,7 @@
         <img src="/images/forkme.png" alt="Fork me on GitHub">
     </a>
 
+    <div id="back_to_top">back to top</div>
     <div class="progress-indicator-2"></div>
 
 </div>
@@ -113,6 +114,13 @@
       }
 
   }());
+
+  $("#back_to_top").show();
+  $("#back_to_top").on("click", function() {
+      $("html body").animate({
+          scrollTop: 0
+      }, 200);
+  });
 
 
   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
