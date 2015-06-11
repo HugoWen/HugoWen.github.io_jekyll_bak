@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sublime-text-3-license
+title: sublime text 3注册码
 date: 2015-06-11 12:24
 tags: [sublime, 破解]
 categories: [软件]
