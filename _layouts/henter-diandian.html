@@ -25,6 +25,7 @@
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/top.js"></script>
     <script type="text/javascript" src="/js/high.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
 </head>
 <body>
 
@@ -95,32 +96,6 @@
   $(document).bind('DOMNodeInserted', function(event) {
     addBlankTargetForLinks();
   });
-
-  (function() {
-      var $w = $(window);
-      var $prog2 = $('.progress-indicator-2');
-      var wh = $w.height();
-      var h = $('body').height();
-      var sHeight = h - wh;
-
-      $w.on('scroll', function() {
-          var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
-          updateProgress(perc);
-      });
-
-      function updateProgress(perc) {
-          $prog2.css({width: perc * 100 + '%'});
-      }
-
-  }());
-
-  $("#back_to_top").show();
-  $("#back_to_top").on("click", function() {
-      $("html body").animate({
-          scrollTop: 0
-      }, 200);
-  });
-
 
   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
   var duoshuoQuery = {short_name:"{{ site.duoshuo }}"};
