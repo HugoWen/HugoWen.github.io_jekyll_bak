@@ -4,7 +4,7 @@ title: Excel科学计数法转换文本
 description: Excel科学计数法转换文本
 date: 2014-05-05 16:26:51
 tags: [csv,excel,科学计数法,文本转换]
-categories: [软件技术]
+categories: [软件]
 published: true
 ---
 在Excel表格中处理csv格式通讯录，往往会遇到一个问题，就是电话号码超过一定位数后就会转换成科学计数法，这样再进行其他导出的时候就会无法正确显示，要么丢失精度，要么直接显示成科学计数法的形式。

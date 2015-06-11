@@ -4,7 +4,7 @@ title: Office2013 无法输入中文
 description: 解决Office2013无法输入中文
 date: 2014-05-05 23:47:35
 tags: [Office2013,中文,输入法]
-categories: [工具]
+categories: [软件]
 published: true
 ---
 要准备开始写毕业论文，尝个鲜下载了个Office2013，总体体验不错，但刚开始出现了小问题，就是无法切换输入法输入中文。  
