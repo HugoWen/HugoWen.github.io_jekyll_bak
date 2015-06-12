@@ -17,7 +17,6 @@
     function updateProgress(perc) {
         $prog2.css({width: perc * 100 + '%'});
     }
-f
 }());
 
 $("#back_to_top").show();
